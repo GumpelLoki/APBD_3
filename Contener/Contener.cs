@@ -31,7 +31,7 @@ public abstract class Contener
     {
         if (cargoMass + mass > cargoCapacity)
         {
-            throw new OverfillException("Przekroczono maksymalną ładowność kontenera!");
+            throw new OverfillException("Max Capacity Exceeded!");
         }
         cargoMass += mass;
     }
